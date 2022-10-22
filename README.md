@@ -4,7 +4,7 @@
 
 <P  align="center">Projeto criado com css puro focado em layouts para browsers antigos.</P>
 
-<img src="assets/readme/responsivo.gif">
+<img src="assets/README/responsivo.gif">
 
 <hr>
 
@@ -30,15 +30,15 @@
 
 <div align="center">
 <hr><h2>Float</h2>
-<img src="assets/readme/float.png">
+<img src="assets/README/float.png">
  <br>
  <br>
 <h2>Clear Both</h2>
-<img src="assets/readme/clear-container.png">
+<img src="assets/README/clear-container.png">
  <br>
  <br>
 <h2>Responsivo</h2>
-<img src="assets/readme/responsivo-clear.gif">
+<img src="assets/README/responsivo-clear.gif">
 <hr>
 <br>
  <div align="center">
