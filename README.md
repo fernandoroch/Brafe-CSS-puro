@@ -45,7 +45,7 @@
  
  ## Tecnologias 
  
- <h2>utilizada</h2><br>
+ <h2>utilizadas</h2><br>
 
 - HTML<br>
 - CSS<br>
