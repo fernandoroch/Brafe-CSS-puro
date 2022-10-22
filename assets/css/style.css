@@ -61,6 +61,20 @@ body {
   font-size: 1.125em;
 }
 
+@media (max-width: 739px) {
+  .menu {
+    text-align: center;
+  }
+  a.menu-logo {
+    float: none;
+    margin: 0 auto;
+  }
+  .menu-nav {
+    float: none;
+    clear: both;
+  }
+}
+
 /*   Intro   */
 
 .intro {
@@ -88,6 +102,12 @@ body {
 .intro p {
   font-style: italic;
   font-size: 1.125em;
+}
+
+@media (max-width: 739px) {
+  .intro {
+    padding: 60px 0;
+  }
 }
 
 /*   Sobre   */
@@ -135,6 +155,25 @@ body {
   text-align: center;
   margin: 20px auto;
   max-width: 460px;
+}
+
+@media (min-width: 740px) and (max-width: 980px) {
+  .container {
+    max-width: 720px;
+  }
+  .sobre-item {
+    width: 340px;
+  }
+}
+
+@media (max-width: 739px) {
+  .container {
+    max-width: 300px;
+  }
+  .sobre-item {
+    width: 300px;
+    margin: 0 auto;
+  }
 }
 
 /*   Produtos   */
@@ -200,6 +239,18 @@ body {
   margin: 20px auto 0 auto;
 }
 
+@media (min-width: 740px) and (max-width: 980px) {
+  .produto-item {
+    width: 220px;
+  }
+}
+
+@media (max-width: 739px) {
+  .produto-item {
+    margin: 0 auto 20px auto;
+  }
+}
+
 /*   locais   */
 
 .locais {
@@ -242,6 +293,27 @@ body {
   border: 3px solid;
   color: #252525;
   padding: 10px 20px;
+}
+
+@media (min-width: 740px) and (max-width: 980px) {
+  .locais {
+    width: 720;
+  }
+  .locais-item > div,
+  .locais-item img {
+    width: 340px;
+  }
+}
+
+@media (max-width: 739px) {
+  .locais {
+    width: 300;
+  }
+  .locais-item > div,
+  .locais-item img {
+    width: 300px;
+    margin: 0;
+  }
 }
 
 /*   Assive   */
@@ -300,6 +372,23 @@ body {
   cursor: pointer;
 }
 
+@media (min-width: 740px) and (max-width: 980px) {
+  .assine-info,
+  .assine form,
+  .assine input {
+    width: 340px;
+  }
+}
+
+@media (max-width: 739px) {
+  .assine-info,
+  .assine form,
+  .assine input {
+    width: 300px;
+    margin: 10px 0 0 0;
+  }
+}
+
 /*  footer   */
 
 .footer {
@@ -318,4 +407,15 @@ body {
   float: right;
   margin: 0 10px;
   display: block;
+}
+
+@media (max-width: 739px) {
+  .footer p {
+    float: none;
+    margin: 0;
+  }
+  .footer img {
+    float: none;
+    margin: 10px 0;
+  }
 }
